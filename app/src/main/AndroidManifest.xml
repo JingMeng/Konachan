@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.ess.anime.wallpaper">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -135,12 +134,12 @@
             android:name="android.max_aspect"
             android:value="2.34" />
 
-        <!-- 华为 -->
+        <!-- ??? -->
         <meta-data
             android:name="android.notch_support"
             android:value="true" />
 
-        <!-- 小米 -->
+        <!-- ??? -->
         <meta-data
             android:name="notch.config"
             android:value="portrait|landscape" />

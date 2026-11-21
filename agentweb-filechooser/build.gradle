@@ -1,10 +1,11 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
+    namespace 'com.just.agentweb.filechooser'
+    compileSdk 34
     defaultConfig {
-        minSdkVersion 19
-        targetSdkVersion 28
+        minSdk 19
+        targetSdk 34
         versionCode 1
         versionName "1.0"
     }
@@ -13,6 +14,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    
     }
 }
 
@@ -21,3 +23,4 @@ dependencies {
     compileOnly 'com.google.android.material:material:1.2.1'
     implementation 'com.just.agentweb:agentweb:4.0.3-alpha@aar'
 }
+
